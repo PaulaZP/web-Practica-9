@@ -1,0 +1,79 @@
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;;
+}
+#head{
+    height: 100px;
+    background-color: red;
+}
+#top{
+    height: 500px;
+    width: 250px;
+    background-color: yellow;
+    float: left;
+    position: relative;
+}
+#bottom{
+    height: 500px;
+    width: 250px;
+    background-color: magenta;
+    float: left;
+    position: relative;
+}
+#right{
+    height: 500px;
+    width: 250px;
+    background-color: midnightblue;
+    float: left;
+    position: relative;
+    color: white;
+}
+#izquierda{
+    height: 500px;
+    width: 250px;
+    background-color: green;
+    float: left;
+    position: relative;
+}
+#cont1{
+    height: 300px;
+    width: 500px;
+    background-color: teal;
+    float: left;
+}
+#cont2{
+    height: 300px;
+    width: 500px;
+    background-color: gray;
+    float: left;
+}
+#footer{
+    height: 50px;
+    background-color: red;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.top1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bottom1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.right1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.left1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
